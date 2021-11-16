@@ -1,9 +1,9 @@
 {
-  "name": "DaisyXMusic",
-  "logo": "https://telegra.ph/file/36ff1b571aa11df5812de.jpg",
+  "name": "zero-music",
+  "logo": "https://telegra.ph/file/8774ac41f954f2c511342.jpg",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/TeamDaisyX/DaisyXMusic",
+  "repository": "https://github.com/zerosquad13/zero-music",
   "stack": "container",
   "buildpacks": [
    {
@@ -34,12 +34,12 @@
     "SUPPORT_GROUP": {
       "description": "Your MusicPlayer support group without @ [Leave this if you don't have one]",
       "required": false,
-      "value": "DaisySupport_Official"
+      "value": "xproject13"
     },
     "PROJECT_NAME": {
       "description": "Your MusicPlayer project Name.",
       "required": false,
-      "value": "DaisyXMusic v5"
+      "value": "zero-music"
     },
     "ASSISTANT_NAME": {
       "description": "Your MusicPlayer's assistant Username without @.",
@@ -58,7 +58,7 @@
     "UPDATES_CHANNEL": {
       "description": "Updates Channel without @ [Leave this if you don't have one].",
       "required": false,
-      "value": "DaisyXupdates"
+      "value": "xproject13"
     },    
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",

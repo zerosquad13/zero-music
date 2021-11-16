@@ -30,17 +30,7 @@ Get pyrogram (p)  `SESSION` from here:
 
 [![Run on Repl.it](https://repl.it/badge/github/ChankitSaini/GenerateStringSession)](https://replit.com/@ChankitSaini/GenerateStringSession)
 
-### ⚔ Self-hosting (For Devs) 
-```sh
-# Install Git First (apt-get install git)
-$ git clone https://github.com/TeamDaisyX/DaisyXmusic
-$ cd DaisyXMusic
-# Upgrade sources
-# Install All Requirements 
-$ pip3 install -U -r requirements.txt
-# Fork This Repo and fill config.py vars with your own values.Then Start The Bot
-$ python3 -m DaisyXMusic
-```
+
 
 ### Commands for Group 🛠
 #### For all in group

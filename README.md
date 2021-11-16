@@ -1,11 +1,9 @@
-<h1 align="center">DAISYX MUSIC V5.0 🎵</h1>
+<h1 align="center">ZERO-MUSIC 🎧</h1>
 
 ### A bot that can play music on Telegram Group and Channel Voice Chats
-#### POWERED BY [MARSHALX TGCALLS](https://github.com/MarshalX/tgcalls)
-### Available on telegram as [@DaisyXbot](https://t.me/daisyxbot)
 
 <p align="center">
-  <img src="https://telegra.ph/file/dd04b1968f1bc1169d162.jpg">
+  <img src="https://telegra.ph/file/8774ac41f954f2c511342.jpg">
 </p>
 
 <h2> Features 🔥 </h2>
@@ -26,7 +24,7 @@
 
 ### 💜 Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TeamDaisyX/DaisyXMusic)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/zerosquad13/zero-music)
 
 Get pyrogram (p)  `SESSION` from here:
 

@@ -39,14 +39,14 @@ def _start(client, message):
         parse_mode="markdown",
         reply_markup=InlineKeyboardMarkup(
             [[
-               InlineKeyboardButton("❎ Add me to your Group ❎", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+               InlineKeyboardButton("💥𝐀𝐃𝐃 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏💥", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
             ],
             [
-               InlineKeyboardButton("📲 Updates", url=f"https://t.me/{UPDATES_CHANNEL}"),
-               InlineKeyboardButton("💬 Support", url=f"https://t.me/{SUPPORT_GROUP}")
+               InlineKeyboardButton("💥𝐮𝐩𝐝𝐚𝐭𝐞𝐬💥", url=f"https://t.me/{UPDATES_CHANNEL}"),
+               InlineKeyboardButton("💥𝐬𝐮𝐩𝐩𝐨𝐫𝐭💥", url=f"https://t.me/{SUPPORT_GROUP}")
             ],
             [
-               InlineKeyboardButton("🛠 Source Code 🛠", url=f"https://{SOURCE_CODE}")
+               InlineKeyboardButton("💥𝐬𝐨𝐮𝐫𝐜𝐞 𝐜𝐨𝐝𝐞💥", url=f"https://{SOURCE_CODE}")
            ]]
         ),
         reply_to_message_id=message.message_id,
@@ -57,7 +57,7 @@ def _start(client, message):
 async def gstart(_, message: Message):
     await message.reply_text(
         f"""**🔴 {PROJECT_NAME} is online**""",
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("💬 Support Chat", url=f"https://t.me/{SUPPORT_GROUP}")]])
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("💥𝐬𝐮𝐩𝐩𝐨𝐫𝐭 𝐜𝐡𝐚𝐭💥", url=f"https://t.me/{SUPPORT_GROUP}")]])
     )
 
 
@@ -98,14 +98,14 @@ def map(pos):
     elif pos == len(tr.HELP_MSG) - 1:
         url = f"https://t.me/{SUPPORT_GROUP}"
         button = [[
-                    InlineKeyboardButton("❎ Add me to your Group ❎", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                    InlineKeyboardButton("💥𝐀𝐃𝐃 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏💥", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                   ],
                   [
-                    InlineKeyboardButton(text="📲 Updates", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                    InlineKeyboardButton(text="💬 Support", url=f"https://t.me/{SUPPORT_GROUP}")
+                    InlineKeyboardButton(text="💥𝐮𝐩𝐝𝐚𝐭𝐞𝐬💥", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                    InlineKeyboardButton(text="💥𝐬𝐮𝐩𝐩𝐨𝐫𝐭💥", url=f"https://t.me/{SUPPORT_GROUP}")
                   ],
                   [
-                    InlineKeyboardButton(text="🛠 Source Code 🛠", url=f"https://{SOURCE_CODE}")
+                    InlineKeyboardButton(text="💥𝐬𝐨𝐮𝐫𝐜𝐞 𝐜𝐨𝐝𝐞💥", url=f"https://{SOURCE_CODE}")
                   ],
                   [
                     InlineKeyboardButton(text="◀️", callback_data=f"help+{pos-1}")

@@ -195,9 +195,9 @@ def r_ply(type_):
                 InlineKeyboardButton("⏭", "skip"),
             ],
             [
-                InlineKeyboardButton("Playlist 📖", "playlist"),
+                InlineKeyboardButton("💥𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭💥", "playlist"),
             ],
-            [InlineKeyboardButton("❌ Close", "cls")],
+            [InlineKeyboardButton("💥𝐂𝐥𝐨𝐬𝐞💥", "cls")],
         ]
     )
     return mar
@@ -407,9 +407,9 @@ async def m_cb(b, cb):
                     InlineKeyboardButton("⏭", "skip"),
                 ],
                 [
-                    InlineKeyboardButton("Playlist 📖", "playlist"),
+                    InlineKeyboardButton("💥𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭💥", "playlist"),
                 ],
-                [InlineKeyboardButton("❌ Close", "cls")],
+                [InlineKeyboardButton("💥𝐂𝐥𝐨𝐬𝐞💥", "cls")],
             ]
         )
         await cb.message.edit(stats, reply_markup=marr)
@@ -552,10 +552,10 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📖 Playlist", callback_data="playlist"),
-                    InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
+                    InlineKeyboardButton("💥𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭💥", callback_data="playlist"),
+                    InlineKeyboardButton("💥𝐌𝐞𝐧𝐮💥", callback_data="menu"),
                 ],
-                [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
+                [InlineKeyboardButton(text="💥𝐂𝐥𝐨𝐬𝐞💥", callback_data="cls")],
             ]
         )
         file_name = get_file_name(audio)
@@ -611,13 +611,13 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📖 Playlist", callback_data="playlist"),
-                    InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
+                    InlineKeyboardButton("💥𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭💥", callback_data="playlist"),
+                    InlineKeyboardButton("💥𝐌𝐞𝐧𝐮💥", callback_data="menu"),
                 ],
                 [
                     InlineKeyboardButton(text="💥𝐁𝐀𝐃 𝐁𝐎𝐘💥", url=f"t.me/deadcrow"),
                 ],
-                [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
+                [InlineKeyboardButton(text="💥𝐂𝐥𝐨𝐬𝐞💥", callback_data="cls")],
             ]
         )
         requested_by = message.from_user.first_name
@@ -676,7 +676,7 @@ async def play(_, message: Message):
                             "5️⃣", callback_data=f"plll 4|{query}|{user_id}"
                         ),
                     ],
-                    [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
+                    [InlineKeyboardButton(text="💥𝐂𝐥𝐨𝐬𝐞💥", callback_data="cls")],
                 ]
             )
             await lel.edit(toxxt, reply_markup=koyboard, disable_web_page_preview=True)
@@ -721,13 +721,13 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("📖 Playlist", callback_data="playlist"),
-                        InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
+                        InlineKeyboardButton("💥𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭💥", callback_data="playlist"),
+                        InlineKeyboardButton("💥𝐌𝐞𝐧𝐮💥", callback_data="menu"),
                     ],
                     [
                         InlineKeyboardButton(text="💥𝐁𝐀𝐃 𝐁𝐎𝐘💥", url=f"t.me/deadcrow"),
                     ],
-                    [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
+                    [InlineKeyboardButton(text="💥𝐂𝐥𝐨𝐬𝐞💥", callback_data="cls")],
                 ]
             )
             requested_by = message.from_user.first_name
@@ -876,13 +876,13 @@ async def ytplay(_, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("📖 Playlist", callback_data="playlist"),
-                InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
+                InlineKeyboardButton("💥𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭💥", callback_data="playlist"),
+                InlineKeyboardButton("💥𝐌𝐞𝐧𝐮💥", callback_data="menu"),
             ],
             [
                 InlineKeyboardButton(text="💥𝐁𝐀𝐃 𝐁𝐎𝐘💥", url=f"t.me/deadcrow"),
             ],
-            [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
+            [InlineKeyboardButton(text="💥𝐂𝐥𝐨𝐬𝐞💥", callback_data="cls")],
         ]
     )
     requested_by = message.from_user.first_name
@@ -1018,15 +1018,15 @@ async def jiosaavn(client: Client, message_: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("📖 Playlist", callback_data="playlist"),
-                InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
+                InlineKeyboardButton("💥𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭💥", callback_data="playlist"),
+                InlineKeyboardButton("💥𝐌𝐞𝐧𝐮💥", callback_data="menu"),
             ],
             [
                 InlineKeyboardButton(
                     text="Join Updates Channel", url=f"https://t.me/{updateschannel}"
                 )
             ],
-            [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
+            [InlineKeyboardButton(text="💥𝐂𝐥𝐨𝐬𝐞💥", callback_data="cls")],
         ]
     )
     file = await convert(wget.download(slink))
@@ -1092,7 +1092,7 @@ async def lol_cb(b, cb):
             "You ain't the person who requested to play the song!", show_alert=True
         )
         return
-    await cb.message.edit("Hang On... Player Starting")
+    await cb.message.edit("SABAR TOD... GUA PUTARIN")
     x = int(x)
     try:
         useer_name = cb.message.reply_to_message.from_user.first_name
@@ -1131,13 +1131,13 @@ async def lol_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("📖 Playlist", callback_data="playlist"),
-                InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
+                InlineKeyboardButton("💥𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭💥", callback_data="playlist"),
+                InlineKeyboardButton("💥𝐌𝐞𝐧𝐮💥", callback_data="menu"),
             ],
             [
                 InlineKeyboardButton(text="💥𝐁𝐀𝐃 𝐁𝐎𝐘💥", url=f"t.me/deadcrow"),
             ],
-            [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
+            [InlineKeyboardButton(text="💥𝐂𝐥𝐨𝐬𝐞💥", callback_data="cls")],
         ]
     )
     requested_by = useer_name

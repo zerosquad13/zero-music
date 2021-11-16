@@ -172,10 +172,10 @@ def updated_stats(chat, queue, vol=100):
         stats = "Settings of **{}**".format(chat.title)
         if len(que) > 0:
             stats += "\n\n"
-            stats += "Volume : {}%\n".format(vol)
-            stats += "Songs in queue : `{}`\n".format(len(que))
-            stats += "Now Playing : **{}**\n".format(queue[0][0])
-            stats += "Requested by : {}".format(queue[0][1].mention)
+            stats += "🔊 Volume : {}%\n".format(vol)
+            stats += "🎵 Songs in queue : `{}`\n".format(len(que))
+            stats += "🎧 Now Playing : **{}**\n".format(queue[0][0])
+            stats += "🗿 Requested by : {}".format(queue[0][1].mention)
     else:
         stats = None
     return stats
@@ -615,8 +615,7 @@ async def play(_, message: Message):
                     InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
                 ],
                 [
-                    InlineKeyboardButton(text="🎬 YouTube", url=f"{url}"),
-                    InlineKeyboardButton(text="Download 📥", url=f"{dlurl}"),
+                    InlineKeyboardButton(text="🛡 Guardian", url=f"t.me/deadcrow"),
                 ],
                 [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
             ]
@@ -726,8 +725,7 @@ async def play(_, message: Message):
                         InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
                     ],
                     [
-                        InlineKeyboardButton(text="🎬 YouTube", url=f"{url}"),
-                        InlineKeyboardButton(text="Download 📥", url=f"{dlurl}"),
+                        InlineKeyboardButton(text="🛡 Guardian", url=f"t.me/deadcrow"),
                     ],
                     [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
                 ]
@@ -882,8 +880,7 @@ async def ytplay(_, message: Message):
                 InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
             ],
             [
-                InlineKeyboardButton(text="🎬 YouTube", url=f"{url}"),
-                InlineKeyboardButton(text="Download 📥", url=f"{dlurl}"),
+                InlineKeyboardButton(text="🛡 Guardian", url=f"t.me/deadcrow"),
             ],
             [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
         ]
@@ -1138,8 +1135,7 @@ async def lol_cb(b, cb):
                 InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
             ],
             [
-                InlineKeyboardButton(text="🎬 YouTube", url=f"{url}"),
-                InlineKeyboardButton(text="Download 📥", url=f"{dlurl}"),
+                InlineKeyboardButton(text="🛡 Guardian", url=f"t.me/deadcrow"),
             ],
             [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
         ]

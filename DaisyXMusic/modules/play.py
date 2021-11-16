@@ -615,7 +615,7 @@ async def play(_, message: Message):
                     InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
                 ],
                 [
-                    InlineKeyboardButton(text="🛡 Guardian", url=f"t.me/deadcrow"),
+                    InlineKeyboardButton(text="💥𝐁𝐀𝐃 𝐁𝐎𝐘💥", url=f"t.me/deadcrow"),
                 ],
                 [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
             ]
@@ -725,7 +725,7 @@ async def play(_, message: Message):
                         InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
                     ],
                     [
-                        InlineKeyboardButton(text="🛡 Guardian", url=f"t.me/deadcrow"),
+                        InlineKeyboardButton(text="💥𝐁𝐀𝐃 𝐁𝐎𝐘💥", url=f"t.me/deadcrow"),
                     ],
                     [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
                 ]
@@ -880,7 +880,7 @@ async def ytplay(_, message: Message):
                 InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
             ],
             [
-                InlineKeyboardButton(text="🛡 Guardian", url=f"t.me/deadcrow"),
+                InlineKeyboardButton(text="💥𝐁𝐀𝐃 𝐁𝐎𝐘💥", url=f"t.me/deadcrow"),
             ],
             [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
         ]
@@ -1135,7 +1135,7 @@ async def lol_cb(b, cb):
                 InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
             ],
             [
-                InlineKeyboardButton(text="🛡 Guardian", url=f"t.me/deadcrow"),
+                InlineKeyboardButton(text="💥𝐁𝐀𝐃 𝐁𝐎𝐘💥", url=f"t.me/deadcrow"),
             ],
             [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
         ]

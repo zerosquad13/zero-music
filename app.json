@@ -1,6 +1,6 @@
 {
   "name": "zero-music",
-  "logo": "https://telegra.ph/file/8774ac41f954f2c511342.jpg",
+  "logo": "https://telegra.ph/file/8df319c48529c36e7785c.png",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
   "repository": "https://github.com/zerosquad13/zero-music",
@@ -53,7 +53,7 @@
     "BG_IMAGE": {
       "description": "BG image of bot (Use transparent one) [IGNORE].",
       "required": false,
-      "value": " https://telegra.ph/file/90cae7a298394519e4f08.png"
+      "value": "https://telegra.ph/file/490d2e62ccd0e3389ee58.png"
     },     
     "UPDATES_CHANNEL": {
       "description": "Updates Channel without @ [Leave this if you don't have one].",

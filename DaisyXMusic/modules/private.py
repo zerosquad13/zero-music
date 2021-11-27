@@ -123,6 +123,6 @@ def map(pos):
 @Client.on_message(filters.command("help") & ~filters.private & ~filters.channel)
 async def ghelp(_, message: Message):
     await message.reply_text(
-        f"""**🙋‍♀️ Hello there! I can play music in the voice chats of telegram groups & channels.**""",
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🟡 Click here for help 🟡", url=f"https://t.me/{BOT_USERNAME}?start")]])
+        f"""**🍻 HᴇʟʟYᴇᴀʜ ! I ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ᴛʜᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛs ᴏғ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs & ᴄʜᴀɴɴᴇʟs.**""",
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🟡 Cʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ʜᴇʟᴘ 🟡", url=f"https://t.me/{BOT_USERNAME}?start")]])
     )
